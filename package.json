@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red212\green212\blue212;\red255\green255\blue255;\red202\green202\blue202;
+\red141\green212\blue254;\red194\green126\blue101;\red202\green202\blue202;}
+{\*\expandedcolortbl;;\cssrgb\c86370\c86370\c86262;\cssrgb\c100000\c100000\c100000;\cssrgb\c83229\c83229\c83125;
+\cssrgb\c61361\c86489\c99746;\cssrgb\c80778\c56830\c46925;\cssrgb\c83137\c83137\c83137;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl420\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{\cf4 \strokec4 \
+  \cf5 \strokec5 "name"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "web-app"\cf2 \strokec2 ,\cf4 \strokec4 \
+  \cf5 \strokec5 "type"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "module"\cf2 \strokec2 ,\cf4 \strokec4 \
+  \cf5 \strokec5 "version"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "0.0.0"\cf2 \strokec2 ,\cf4 \strokec4 \
+  \cf5 \strokec5 "private"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 true\cf2 \strokec2 ,\cf4 \strokec4 \
+  \cf5 \strokec5 "scripts"\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 \{\cf4 \strokec4 \
+    \cf5 \strokec5 "dev"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "vite --host :: --port 3000"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "build"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "node tools/generate-llms.js || true && vite build"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "preview"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "vite preview --host :: --port 3000"\cf4 \strokec4 \
+  \cf2 \strokec2 \},\cf4 \strokec4 \
+  \cf5 \strokec5 "dependencies"\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 \{\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-alert-dialog"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.1.4"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-avatar"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.1.2"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-checkbox"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.1.3"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-dialog"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.1.4"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-dropdown-menu"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^2.1.4"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-label"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^2.1.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-slot"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.1.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-tabs"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.1.2"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-toast"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.2.4"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@radix-ui/react-slider"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.2.2"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "class-variance-authority"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^0.7.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "clsx"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^2.1.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "framer-motion"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^11.15.0"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "lucide-react"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^0.469.0"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "react"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^18.3.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "react-dom"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^18.3.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "react-helmet"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^6.1.0"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "tailwind-merge"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^2.6.0"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "tailwindcss-animate"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^1.0.7"\cf4 \strokec4 \
+  \cf2 \strokec2 \},\cf4 \strokec4 \
+  \cf5 \strokec5 "devDependencies"\cf2 \strokec2 :\cf4 \strokec4  \cf2 \strokec2 \{\cf4 \strokec4 \
+    \cf5 \strokec5 "@babel/generator"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^7.26.3"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@babel/parser"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^7.26.3"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@babel/traverse"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^7.26.4"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@babel/types"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^7.26.3"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@types/node"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^20.17.10"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@types/react"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^18.3.18"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@types/react-dom"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^18.3.5"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "@vitejs/plugin-react"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^4.3.4"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "autoprefixer"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^10.4.20"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "postcss"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^8.4.49"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "tailwindcss"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^3.4.17"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "vite"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^4.4.5"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "terser"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^5.37.0"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "eslint"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^8.57.1"\cf2 \strokec2 ,\cf4 \strokec4 \
+    \cf5 \strokec5 "eslint-config-react-app"\cf2 \strokec2 :\cf4 \strokec4  \cf6 \strokec6 "^7.0.1"\cf4 \strokec4 \
+  \cf2 \strokec2 \}\cf4 \strokec4 \
+\cf2 \strokec2 \}\cf7 \cb1 \strokec7 \
+}
