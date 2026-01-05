@@ -86,3 +86,4 @@ function RecordForm({ onSave }) {
     </form>
   );
 }
+npm install firebase
